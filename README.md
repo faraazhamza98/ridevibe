@@ -4,18 +4,18 @@
  Used Rest APIs to manipulate with data on cloud firestore
  Responsive UI available on multiple platforms including IOS and Android 
 
-#Prerequisites
+# Prerequisites
 
 Android Studio
 Xcode
 Firebase
 
-#Setup firebase
+# Setup firebase
 Add a new project your Firebase console
 Add a new Android application, you have to do add 2 applicatitons, driver and rider one.
 Then go to the project settings > Cloud Messaging. On this tab you will copy the Server Key. You will put that key in common/ConfigApp.java file on CLOUD_MESSAGING_SERVER_GEY constant on rider and driver apps
 
-#Setup Google APIs
+# Setup Google APIs
 Go to your Google cloud platform and select your project or create a new project.
 Search and active this API keys:
 Places SDK for Android
